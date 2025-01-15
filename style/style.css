@@ -140,3 +140,24 @@
     justify-content: center;
     gap: 8px;
 }
+
+.dispositivos {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.dispositivos-conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.tv, .computador, .celular {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
