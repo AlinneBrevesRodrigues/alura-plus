@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +14,7 @@
 
 .body {
     box-sizing: border-box;
-    background-color: black;
+    background-color: var(--cor-de-fundo);
 }
 
 .cabecalho {
@@ -28,7 +35,7 @@
     font-family: 'Inter';
     font-weight: 700;
     font-size: 28px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .imagem-combo {
@@ -43,18 +50,18 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .botao-combo-parcelado {
-    border: 2px solid #167BF7;
+    border: 2px solid var(--botao-azul);
     border-radius: 5px;
-    background: #167BF7;
+    background: var(--botao-azul);
     padding: 16px;
 }
 
 .botao-assinar-somente-alura {
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--branco-principal);
     border-radius: 5px;
     padding: 16px;
 }
@@ -64,7 +71,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 12px;
-    color: #C0C0C0;
+    color: var(--cinza-secundario);
 }
 
 .plataforma {
@@ -87,7 +94,7 @@
     font-family: 'Inter';
     font-weight: 700;
     font-size: 48px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .paragrafo {
@@ -95,7 +102,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .telas {
@@ -114,16 +121,16 @@
 }
 
 .telas-botao {
-    border: 2px solid #167BF7;
+    border: 2px solid var(--botao-azul);
     border-radius: 5px;
-    background: #167BF7;
+    background: var(--botao-azul);
     padding: 16px;
     width: 30%;
     text-align: center;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .notebook {
@@ -159,7 +166,7 @@
     font-family: 'Inter';
     font-weight: 700;
     font-size: 32px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .rodape {
@@ -182,7 +189,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
 
 .rodape-paragrafo {
@@ -193,5 +200,5 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: var(--branco-principal);
 }
